@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48717" started-at="2016-07-16T15:05:15Z" finished-at="2016-07-16T15:06:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48717" started-at="2016-07-16T15:05:15Z" finished-at="2016-07-16T15:06:04Z">
+      <class name="testcases.VerifyLoginPageWithReports">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.VerifyLoginPageWithReports@548e7350]" name="setup" is-config="true" duration-ms="36542" started-at="2016-07-16T20:35:15Z" finished-at="2016-07-16T20:35:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testHomePage()[pri:0, instance:testcases.VerifyLoginPageWithReports@548e7350]" name="testHomePage" duration-ms="10973" started-at="2016-07-16T20:35:52Z" finished-at="2016-07-16T20:36:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.VerifyLoginPageWithReports@548e7350]" name="tearDown" is-config="true" duration-ms="1156" started-at="2016-07-16T20:36:03Z" finished-at="2016-07-16T20:36:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomePage status=SUCCESS method=VerifyLoginPageWithReports.testHomePage()[pri:0, instance:testcases.VerifyLoginPageWithReports@548e7350] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.VerifyLoginPageWithReports -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
